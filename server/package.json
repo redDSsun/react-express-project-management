@@ -1,0 +1,25 @@
+{
+  "name": "express-create-react-app-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server/server.js",
+    "stop": "pkill --signal SIGINT express-create-react-app-example",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "json-server": "^0.12.1",
+    "mongodb": "^3.0.2",
+    "mongojs": "^2.5.0",
+    "mongoose": "^5.0.3",
+    "nodemo": "^1.0.0",
+    "nodemon": "^1.14.12"
+  }
+}
